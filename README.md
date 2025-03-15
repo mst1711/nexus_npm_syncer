@@ -93,8 +93,8 @@ options:
 ```shell
 apt-get install -y build-essential patchelf
 pip install staticx pyinstaller
-staticx ./dist/nexus_npm_sync ./nexus_npm_sync
 pyinstaller --onefile --clean --strip --log-level=DEBUG --hidden-import=libs.config --hidden-import=libs.log nexus_npm_sync.py
+staticx ./dist/nexus_npm_sync ./nexus_npm_sync
 ```
 After this, the statically built binary will be located in `./nexus_npm_sync`.  
 This file can be placed in a scratch container and executed.
