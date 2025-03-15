@@ -1,0 +1,24 @@
+source:
+  baseUrl: https://nexus.domain.com
+  repoName: npm-repo
+  username: user
+  password: password
+
+destination:
+  baseUrl: https://nexus-another.domain.com
+  repoName: npm-repo
+  username: user
+  password: password
+
+deleteLocalPackages: false
+downloadPath: npm-packages
+maxConcurrentDownloads: 30
+maxConcurrentUploads: 20
+
+logging:
+  debug: false
+  logToFile: false
+
+packages:
+  - "@web/design"
+  - "analytics"

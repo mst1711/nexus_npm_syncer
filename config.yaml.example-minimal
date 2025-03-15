@@ -1,0 +1,15 @@
+source:
+  baseUrl: https://nexus.domain.com
+  repoName: npm-repo
+  username: user
+  password: password
+
+destination:
+  baseUrl: https://nexus-another.domain.com
+  repoName: npm-repo
+  username: user
+  password: password
+
+packages:
+  - "@web/design"
+  - "analytics"

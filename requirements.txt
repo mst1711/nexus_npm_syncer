@@ -1,0 +1,7 @@
+aiofiles==24.1.0
+anyio==4.8.0
+colorlog==6.9.0
+httpx==0.28.1
+jsonschema==4.23.0
+PyYAML==6.0.2
+pyinstaller==6.12.0
